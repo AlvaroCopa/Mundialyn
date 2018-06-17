@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "682559028634",
+    "firebase_url": "https://mundialyn.firebaseio.com",
+    "project_id": "mundialyn",
+    "storage_bucket": "mundialyn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682559028634:android:ddb2e8342fd07205",
+        "android_client_info": {
+          "package_name": "com.example.rocket.mundialyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682559028634-hf213us110urtoastc3kqml180pqm8lk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rocket.mundialyn",
+            "certificate_hash": "c306e16f8587152aa258fdf555a59a686bf21370"
+          }
+        },
+        {
+          "client_id": "682559028634-hhc1614f422f9vnl2kd3s5npne80o1sl.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "682559028634-hhc1614f422f9vnl2kd3s5npne80o1sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnRAvM4JMAOuLkx2xonVmXUGdWK8F_p3s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682559028634-hhc1614f422f9vnl2kd3s5npne80o1sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
