@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     >
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/celebracion"
-        />
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="106dp"
+        android:src="@drawable/chilena" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/chilena"
-        />
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/celebracion" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/copamundo"
-        />
+        android:src="@drawable/incha" />
+
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/incha"
-        />
+        android:layout_width="172dp"
+        android:layout_height="412dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/copamundo" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
