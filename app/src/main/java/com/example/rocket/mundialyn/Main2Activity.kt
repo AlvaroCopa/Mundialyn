@@ -1,5 +1,6 @@
 package com.example.rocket.mundialyn
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.design.widget.NavigationView
@@ -8,6 +9,8 @@ import android.support.v7.app.ActionBarDrawerToggle
 import android.support.v7.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
+import com.example.rocket.mundialyn.R.id.*
 import kotlinx.android.synthetic.main.activity_main2.*
 import kotlinx.android.synthetic.main.app_bar_main2.*
 
@@ -17,11 +20,11 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
         setSupportActionBar(toolbar)
-
-        fab.setOnClickListener { view ->
+        Toast.makeText(this,"BIENVENIDO",Toast.LENGTH_SHORT).show()
+        /*fab.setOnClickListener { view ->
             Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show()
-        }
+        }*/
 
         val toggle = ActionBarDrawerToggle(
                 this, drawer_layout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
@@ -50,7 +53,7 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         when (item.itemId) {
-            R.id.action_settings -> return true
+            //R.id.action_settings -> return true
             else -> return super.onOptionsItemSelected(item)
         }
     }
@@ -60,22 +63,20 @@ class Main2Activity : AppCompatActivity(), NavigationView.OnNavigationItemSelect
         when (item.itemId) {
             R.id.nav_camera -> {
                 // Handle the camera action
+                val intent: Intent = Intent(this,PlayerActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_gallery -> {
-
+                val intent: Intent = Intent(this,StadiumActivity::class.java)
+                startActivity(intent)
             }
             R.id.nav_slideshow -> {
-
+                val intent: Intent = Intent(this,MascotaActivity::class.java)
+                startActivity(intent)
             }
-            R.id.nav_manage -> {
+            /*R.id.nav_manage -> {
 
-            }
-            R.id.nav_share -> {
-
-            }
-            R.id.nav_send -> {
-
-            }
+            }*/
         }
 
         drawer_layout.closeDrawer(GravityCompat.START)
