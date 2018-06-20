@@ -1,9 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MascotaActivity">
+    <ImageView
+        android:id="@+id/logrusia"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logrusia" />
+    <TextView
+        android:id="@+id/infologrusia"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logrusia"
+        android:text="mascota de rusia"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/rusia"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infologrusia"
+        android:text="RUSIA 2018"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/logbrazil"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/rusia"
+        android:src="@drawable/logbrazil"
+        />
+    <TextView
+        android:id="@+id/infologbrazil"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logbrazil"
+        android:text="mascota de brazil "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/mascotabrazil"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infologbrazil"
+        android:text="brazil 2014"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/loggafrica"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/mascotabrazil"
+        android:src="@drawable/africa"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/infologafrica"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loggafrica"
+        android:text="AFRICA "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/mascotabra"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infologafrica"
+        android:text="AFRICA 2010"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>
