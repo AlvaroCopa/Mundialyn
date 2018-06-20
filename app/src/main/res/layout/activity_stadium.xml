@@ -1,9 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".StadiumActivity">
+    <ImageView
+        android:id="@+id/estadioberlin"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/estadioberlin"
+        />
+    <TextView
+        android:id="@+id/infoestadioberlin"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estadioberlin"
+        android:text="Olympiastadion"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/stadium"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoestadioberlin"
+        android:text="ALEMANIA 6006"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/estadiumjoha"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/stadium"
+        android:src="@drawable/estadiumjoha"
+        />
+    <TextView
+        android:id="@+id/infoestadiumjha"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estadiumjoha"
+        android:text="Soccer City "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/stadimjo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoestadiumjha"
+        android:text="SUD AFRICA 2010"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/estadioBra"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/stadimjo"
+        android:src="@drawable/estadioBra"
+        />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/infoestadioBra"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estadioBra"
+        android:text="MARACANA "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/infoestadioB"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoestadioBra"
+        android:text="BRAZIL 2014"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/estadiorusia"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/infoestadioB"
+        android:src="@drawable/estadiorusia"
+        />
+
+    <TextView
+        android:id="@+id/infoestadiorusia"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/estadiorusia"
+        android:text="Estadio Luzhniki de Moscu "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/estadioru"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoestadiorusia"
+        android:text="rusia 2018"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
+</RelativeLayout>
