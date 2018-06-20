@@ -6,13 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".PlayerActivity">
 
+
     <ImageView
         android:id="@+id/messi"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:layout_marginTop="15dp"
         android:src="@drawable/messi"
-
         />
     <TextView
         android:id="@+id/infomessi"
@@ -32,6 +32,163 @@
         android:textStyle="bold"
         android:textSize="18dp"
         android:gravity="center"/>
+    <ImageView
+        android:id="@+id/pele"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/messi_pais"
+        android:src="@drawable/pele"
+        />
+    <TextView
+        android:id="@+id/infopele"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pele"
+        android:text="Pele"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/pele_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infopele"
+        android:text="BRAZIL"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/zidane"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/pele_pais"
+        android:src="@drawable/zidane"
+        />
+    <TextView
+        android:id="@+id/infozidane"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zidane"
+        android:text="Zinedine Zidane"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/zidane_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infozidane"
+        android:text="FRANCIA"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/alemaniaJug"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/zidane_pais"
+        android:src="@drawable/zidane"
+        />
+    <TextView
+        android:id="@+id/infoalemaniaJug"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alemaniaJug"
+        android:text="Franz Beckenbauer"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/alemaniaJug_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoalemaniaJug"
+        android:text="ALEMANIA"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/ronaldo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/alemaniaJug_pais"
+        android:src="@drawable/ronaldo"
+        />
+    <TextView
+        android:id="@+id/inforonaldo"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ronaldo"
+        android:text="Ronaldo"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/ronaldo_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inforonaldo"
+        android:text="BRAZIL"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/platini"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/ronaldo_pais"
+        android:src="@drawable/platini"
+        />
+    <TextView
+        android:id="@+id/infoplatini"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/platini"
+        android:text="Michel Platini "
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/platini_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoplatini"
+        android:text="FRNACIA"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/Garrincha"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/platini_pais"
+        android:src="@drawable/Garrincha"
+        />
+    <TextView
+        android:id="@+id/infoGarrincha"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Garrincha"
+        android:text="Garrincha"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/Garrincha_pais"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/infoGarrincha"
+        android:text="BRAZIL"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"/>
+
 
 
 </RelativeLayout>
